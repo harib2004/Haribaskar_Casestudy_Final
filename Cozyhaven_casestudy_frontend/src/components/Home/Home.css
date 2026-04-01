@@ -1,0 +1,102 @@
+
+.btn-primary {
+  background-color: #5392f9; 
+  border: none;
+  height: 60px;
+  font-weight: 700;
+  transition: background-color 0.3s ease, transform 0.1s active;
+}
+
+.btn-primary:hover {
+  background-color: #3b76d8; 
+}
+
+
+.hero-section {
+  background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
+              url('https://images.unsplash.com/photo-1542314831-068cd1dbfeeb?auto=format&fit=crop&w=1600&q=80');
+  background-size: cover;
+  background-position: center;
+  min-height: 550px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+.search-box-wrapper {
+  max-width: 900px;
+  background-color: white;
+  border-radius: 100px !important; 
+  padding: 8px !important;
+  border: 8px solid rgba(255, 255, 255, 0.2) !important;
+}
+
+.search-box-wrapper .border-end {
+  border-right: 1px solid #eee !important;
+}
+
+
+.search-box-wrapper input:focus,
+.search-box-wrapper .form-control:focus {
+  box-shadow: none;
+  background-color: transparent;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+  transition: background-color 0.2s;
+  border-radius: 20px;
+}
+
+.cursor-pointer:hover {
+  background-color: #f8f9fa;
+}
+
+
+.home-page .container {
+  max-width: 80%; 
+}
+
+.location-card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  border-radius: 20px !important;
+}
+
+.location-card:hover {
+  transform: translateY(-8px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.15) !important;
+}
+
+.card-img-wrapper {
+  position: relative;
+  overflow: hidden;
+  border-radius: 20px;
+}
+
+.transition-scale {
+  transition: transform 0.5s ease;
+}
+
+.location-card:hover .transition-scale {
+  transform: scale(1.1);
+}
+
+
+.dropdown-menu {
+  border: none !important;
+  box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+  border-radius: 1.5rem !important;
+  z-index: 1050;
+}
+
+.extra-small {
+  font-size: 0.75rem;
+}
+
+
+.search-box-wrapper label {
+  letter-spacing: 0.5px;
+  font-size: 0.65rem;
+}

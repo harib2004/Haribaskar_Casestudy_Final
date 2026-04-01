@@ -1,0 +1,123 @@
+
+.admin-dashboard-container {
+    background-color: #f8f9fa; 
+    min-height: 100vh;
+    padding-top: 2rem;
+}
+
+
+.custom-tabs.nav-tabs {
+    border-bottom: 1px solid #dee2e6;
+    background-color: #f8f9fa;
+}
+
+.custom-tabs .nav-link {
+    border: none;
+    color: #6c757d;
+    font-weight: 600;
+    padding: 16px 24px;
+    transition: all 0.2s ease-in-out;
+    border-radius: 0;
+    font-size: 0.9rem;
+}
+
+.custom-tabs .nav-link:hover {
+    color: #007bff;
+    background: rgba(0, 123, 255, 0.05);
+}
+
+.custom-tabs .nav-link.active {
+    color: #007bff !important;
+    background-color: transparent !important;
+    border-bottom: 3px solid #007bff !important; 
+}
+
+.admin-table-container {
+    border-radius: 12px;
+    overflow: hidden; 
+    background: white;
+    border: 1px solid #e9ecef;
+}
+
+.admin-table thead th {
+    background-color: #f8f9fa; 
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 0.75rem;
+    letter-spacing: 0.8px;
+    padding: 18px 15px;
+    border-bottom: 1px solid #dee2e6;
+}
+
+.admin-table tbody td {
+    padding: 16px 15px;
+    vertical-align: middle;
+    color: #495057;
+    font-size: 0.95rem;
+    border-bottom: 1px solid #f1f3f5;
+}
+
+.admin-table tbody tr:last-child td {
+    border-bottom: none;
+}
+
+.admin-table tbody tr:hover {
+    background-color: #fcfdff; 
+}
+
+/* 4. Action Buttons */
+.admin-action-btn {
+    border-radius: 50%;
+    width: 34px;
+    height: 34px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    transition: all 0.2s ease;
+    padding: 0;
+}
+
+.admin-action-btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+.role-badge {
+    padding: 5px 14px;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 0.75rem;
+    text-transform: capitalize;
+    display: inline-block;
+}
+
+
+.role-badge-admin {
+    background-color: #fff5f5;
+    color: #e03131;
+    border: 1px solid #ffa8a8;
+}
+
+.role-badge-owner {
+    background-color: #f0f7ff;
+    color: #1971c2;
+    border: 1px solid #a5d8ff;
+}
+
+.role-badge-user {
+    background-color: #f8f9fa;
+    color: #495057;
+    border: 1px solid #dee2e6;
+}
+
+.admin-section-title {
+    font-weight: 800;
+    color: #212529;
+    letter-spacing: -0.02em;
+}
+
+.admin-subtitle {
+    color: #868e96;
+    font-size: 0.9rem;
+}

@@ -1,0 +1,44 @@
+
+.featured-card {
+  border-radius: 20px !important;
+  transition: transform 0.3s ease;
+}
+
+.featured-card:hover {
+  transform: translateY(-5px);
+}
+
+
+.card-image-wrapper {
+  height: 280px;
+  border-radius: 20px 20px 0 0;
+}
+
+.card-image-wrapper img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.badge.bg-white {
+  color: #e91e63 !important; 
+  border-radius: 8px;
+  font-weight: 600;
+}
+
+.text-primary {
+  color: #5392f9 !important; 
+}
+
+hr {
+  opacity: 0.1;
+  margin: 1rem 0;
+}
+
+
+.btn-white {
+  background: white !important;
+  font-size: 0.8rem;
+  border-radius: 8px;
+  font-weight: 500;
+}

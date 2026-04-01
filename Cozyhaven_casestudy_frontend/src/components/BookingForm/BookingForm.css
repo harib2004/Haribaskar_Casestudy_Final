@@ -1,0 +1,63 @@
+
+:root {
+  --agoda-blue: #5392f9;
+}
+
+
+.card {
+  transition: transform 0.2s ease;
+}
+
+.rounded-4 {
+  border-radius: 1rem !important;
+}
+
+.form-label {
+  color: #444;
+  font-size: 0.9rem;
+}
+
+.form-select {
+  padding: 0.75rem;
+  border: 1px solid #dee2e6;
+  border-radius: 10px;
+  background-color: #fcfcfc;
+}
+
+.form-select:focus {
+  border-color: var(--agoda-blue);
+  box-shadow: 0 0 0 0.25rem rgba(83, 146, 249, 0.1);
+}
+
+.alert-primary {
+  background-color: #eef4ff;
+  color: #2b57a7;
+}
+
+
+.btn-primary {
+  background-color: var(--agoda-blue);
+  border: none;
+}
+
+.btn-primary:hover {
+  background-color: #3b76d8;
+}
+
+.btn-primary:disabled {
+  background-color: #a5c7fb;
+}
+
+.extra-small {
+  font-size: 0.75rem;
+}
+
+
+.animate-fade-in {
+  animation: fadeIn 0.4s ease-out;
+}
+
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(15px); }
+  to { opacity: 1; transform: translateY(0); }
+}

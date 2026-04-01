@@ -1,0 +1,75 @@
+.register-page-wrapper {
+  background: linear-gradient(135deg, #1e3a8a 0%, #3b82f6 100%);
+  display: flex;             
+  justify-content: center;   
+  align-items: center;       
+  padding: 20px;
+}
+
+.registration-card {
+  width: 100%;
+  max-width: 500px;
+  border-radius: 12px;
+}
+
+.registration-title {
+  color: #5392f9;
+  font-weight: 700;
+  font-size: 1.8rem;
+  text-align: center;
+}
+
+.registration-title span {
+  font-size: 1.2rem;
+  vertical-align: middle;
+}
+
+.underlined-input {
+ border: none !important;
+  border-bottom: 2px solid #3b82f6 !important;
+  border-radius: 0 !important;
+  padding-left: 0 !important;
+  background-color: transparent !important;
+  box-shadow: none !important;
+}
+
+.underlined-input:focus {
+  border-bottom-color: #1e3a8a !important;
+}
+
+.form-label {
+  color: #888;
+  margin-bottom: 0;
+}
+
+.password-toggle-icon {
+  position: absolute;
+  right: 5px;
+  bottom: 8px;
+  cursor: pointer;
+  color: #1e3a8a;
+}
+
+.terms-text {
+  font-size: 0.7rem;
+  color: #777;
+  line-height: 1.2;
+}
+
+.create-account-btn {
+  background: linear-gradient(to right, #1e3a8a, #3b82f6);
+  padding: 12px;
+  font-weight: 600;
+  letter-spacing: 1px;
+  border-radius: 4px;
+}
+
+.login-redirect {
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.login-redirect a {
+  color: #1e3a8a;
+  text-decoration: none;
+}

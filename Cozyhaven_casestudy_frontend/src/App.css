@@ -1,0 +1,25 @@
+
+body {
+  font-family: 'Mallent', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  background-color: #f8f7f9;
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #5392f9 !important;
+  border-color: #5392f9 !important;
+}
+
+.btn-outline-primary {
+  color: #5392f9 !important;
+  border-color: #5392f9 !important;
+}
+
+.btn-outline-primary:hover {
+  background-color: #5392f9 !important;
+  color: white !important;
+}
+
+.text-primary {
+  color: #5392f9 !important;
+}

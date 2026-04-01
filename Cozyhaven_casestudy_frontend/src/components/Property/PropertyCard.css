@@ -1,0 +1,23 @@
+.property-card {
+  transition: transform 0.2s;
+  cursor: pointer;
+}
+
+.property-card:hover {
+  transform: translateY(-5px);
+}
+
+.hotel-img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 4px 4px 0 0;
+}
+
+.rating-box {
+  background-color: #5392f9;
+  color: white;
+  padding: 2px 6px;
+  border-radius: 4px;
+  font-weight: bold;
+  font-size: 0.9rem;
+}

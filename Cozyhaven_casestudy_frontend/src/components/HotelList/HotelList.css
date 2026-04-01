@@ -1,0 +1,82 @@
+
+.container.mt-4 {
+    margin-bottom: 3rem;
+}
+
+
+.hotel-card-item {
+    transition: transform 0.3s cubic-bezier(0.165, 0.84, 0.44, 1), 
+                box-shadow 0.3s ease-in-out;
+    border-radius: 12px !important;
+    background-color: #ffffff;
+}
+
+
+.hotel-card-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 12px 24px rgba(0, 0, 0, 0.1) !important;
+}
+
+.card-body {
+    padding: 1.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.card-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: #2c3e50; 
+    margin-bottom: 0.5rem;
+}
+
+.card-subtitle {
+    font-size: 0.9rem;
+    color: #6c757d !important;
+    display: flex;
+    align-items: center;
+}
+
+.card-subtitle i {
+    color: #007bff;
+}
+
+
+.card-text {
+    color: #555;
+    font-size: 0.95rem;
+    line-height: 1.6;
+    margin-top: 1rem;
+    
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    height: 4.8em; 
+}
+
+
+.btn-outline-primary {
+    border-width: 2px;
+    font-weight: 600;
+    border-radius: 8px;
+    padding: 0.5rem 1.2rem;
+    margin-top: 1rem;
+    transition: all 0.2s ease;
+}
+
+.btn-outline-primary:hover {
+    background-color: #007bff;
+    color: #fff;
+    transform: scale(1.02);
+}
+
+
+.text-center.mt-5, 
+.text-center.w-100 {
+    padding: 4rem 0;
+    color: #888;
+    font-style: italic;
+    font-size: 1.1rem;
+}
